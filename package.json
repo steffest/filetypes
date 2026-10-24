@@ -1,0 +1,27 @@
+{
+  "name": "@steffest/filetypes",
+  "version": "0.4.0",
+  "description": "Dependency-free file detection and application recommendations for Node and browsers",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./binary-stream": "./binary-stream.js",
+    "./inspectors/amiga-icon": "./inspectors/amiga-icon.js",
+    "./inspectors/iff": "./inspectors/iff.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "types.js",
+    "signatures.js",
+    "applications.js",
+    "inspect.js",
+    "binary-stream.js",
+    "inspectors",
+    "LICENSE",
+    "README.md"
+  ]
+}
